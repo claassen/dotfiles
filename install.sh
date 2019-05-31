@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rsync . ~
+rsync -r --exclude install.sh . ../test
 
